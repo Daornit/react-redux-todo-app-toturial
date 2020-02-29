@@ -11,6 +11,7 @@ const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && wi
 render(
   <Provider store={store} >
     <App/>
+    
   </Provider>, document.getElementById('root'))
 
 // If you want your app to work offline and load faster, you can change
